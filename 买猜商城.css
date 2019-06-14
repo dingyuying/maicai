@@ -1,0 +1,388 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+div{
+	display: block;
+}
+.header{
+	height: 33px;
+}
+.header-1{
+	width: 1200px;
+	height: 36px;
+	margin: 0 auto;
+	margin-bottom: 0px; 
+	display: block;	
+	line-height: 36px;
+}
+.header span{
+	font-size: 14.98px;
+	float: left;
+	margin-left: 26px;
+}
+.header .one{
+	font-size: 12.93px;
+	margin-left:523px;
+}
+.header .big{
+	font-weight: bold;
+}
+.header a{
+	text-decoration: none;
+	color: #333;
+}
+.header .jiaobiao{
+	margin-left: 12px;
+}
+.header .tubiao{
+	margin-left: 10px;
+}
+.header #tiaozheng{
+	margin-right: 20px;
+}
+.top{
+	margin-top:0px;
+	height: 95px;
+}
+.top-1{
+	width: 1200px;
+	height: 95px;
+	margin: 0 auto;
+}
+.top .one{
+	width: 265px;
+	margin-left: 0px;
+	margin-top: 25px;
+	display: block;
+	float: left;
+}
+.top .two{
+	width: 745px;
+	height: 92px;
+	display: block;
+	float: left;
+}
+.top .two .search{
+	width:600px;
+	height: 47px;
+	border: 1px solid #373741;
+	float: right;
+	margin-top: 42px;
+}
+.top .search input{
+	height: 40px;
+	border: none;
+	margin-top: 5px;
+	margin-left: 200px;
+}
+.top .search input::-webkit-input-placeholder{
+	color: #e2e2e2;
+	font-size: 14.78px;
+}
+.top .search .ing{
+	width: 55px;
+	height: 48px;
+	float: right;
+	display: block;
+	border-left:1.5px solid #cccccc ;
+}
+.top .search img{
+	margin-top: 5px;
+	margin-left: 8px;
+}
+.top .there{
+	width: 190px;
+	float: right;
+	margin-top: 58px;
+}
+.top .there img{
+	margin-left: 155px;
+}
+.daohanglan{
+	height: 45px;
+}
+.daohang{
+	height: 45px;
+	width: 1200px;
+	margin: 10px auto 0;
+}
+.word{
+	width: 1200px;
+	height: 35px;
+}
+.word a{
+	width: 80px;
+    height: 35px;
+    font-size: 14.98px;
+	text-decoration: none;
+	color: #050505;
+}
+.word img{
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.daohang li{
+	list-style: none;
+    float: left;
+    line-height: 35px;
+    text-align: center;
+}
+.daohang .big{
+	font-weight: bold;
+}
+.daohang .tiaozheng{
+	margin-left: 39px;
+	width: 80px;
+    height: 35px;
+}
+.word li:hover{
+    text-decoration: none;
+    border-bottom:3px solid #3aa747 ;
+    width: 80px;
+    padding-bottom: 7px;
+}
+.aline{
+	width: 1920px;
+	height: 0px;
+	border: 2.5px solid #3aa747;
+}
+.photo{
+	height: 680px;
+}
+.photo .banner{
+	margin: 0 auto;
+}
+.first{
+	height: 50px;
+}
+.zhongjian{
+	width: 1200px;
+	margin: 0 auto;
+}
+.first-1 a{
+	text-decoration: none;
+	color: black;
+	margin-left: 15px;
+	font-size: 18px;
+}
+.first a:after{
+	content: ">";
+	margin: 0 10px;
+	font-size: 14px;
+	color: #737373;
+}
+.first-1 span{
+	font-size: 14px;
+	color:#737373;
+}
+.first-2{
+	font-size: 14px;
+	color:#737373;
+	float: right;
+
+}
+.biaoge{
+	height:195px;
+}
+.biaoge1{
+	margin: 0 auto;
+	width: 1200px;
+	border-collapse:collapse;
+}
+.biaoge td{
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	font-size: 16px;
+	border-top:1px solid #b7b7b7;
+	border-bottom: 1px solid #b7b7b7;
+}
+.biaoge a{
+	text-decoration: none;
+	color: #737373;
+}
+.biaoge a:hover{
+	color: #3aa747;
+}
+.biaoge .begin{
+	border-left: 1px solid #b7b7b7;
+	background: #e5e5e5;	
+}
+.biaoge .begin-1{
+	color: black;
+}
+.biaoge .jieshu{
+	border-right: 1px solid #b7b7b7;
+}
+.shangpin{
+	height: 765px;
+}
+.shangpin-1{
+	width: 1200px;
+	margin: 0 auto;
+}
+.shangpin #shang{
+	width: 273px;
+	height: 292px;
+	border: 1px solid #888888;
+	float: left;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+.shangpin .shang-1{
+	width: 273px;
+	height: 292px;
+	border: 1px solid #888888;
+	margin-left: 1px;
+	float: left;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    color: black;
+}
+.shangpin #tebie{
+	width: 273px;
+	height: 292px;
+	border: 1px solid #888888;
+	float: left;
+    margin-left: 1px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+.shangpin #shang img{
+	margin: 0 auto;
+}
+.shangpin #tebie img{
+	margin: 0 auto;
+}
+.shangpin .shangpin-1 .shang-1 .yinshen{
+	width:273px;
+    height:50px;
+    color:white;
+    font-size: 14.83px;
+    position: absolute;
+    bottom: 0;
+    background-color:#474744;
+}
+.shangpin .shangpin-1 #shang .yinshen{
+	width:273px;
+    height:50px;
+    color:white;
+    position: absolute;
+    bottom: 0;
+    background-color:#474744;
+}
+.shangpin .shang-1:hover .yinshen{
+	width:273px;
+    height:292px;
+    color:white;
+    font-size: 22.14px;
+    position: absolute;
+    bottom: 0;
+    background-color:#474744;
+	display: block;
+}
+.shangpin #shang:hover .yinshen{
+	width:273px;
+    height:292px;
+    color:white;
+    font-size: 22.14px;
+    position: absolute;
+    bottom: 0;
+    background-color:#474744;
+	display: block;
+}
+.yinshen span{
+	margin: 6px;
+}
+.yinshen .zhenmafan{
+	margin-top: 6px;
+
+}
+.shangpin .shang-1:hover .yinshen .zhenmafan{
+	margin-top: 120px;
+}
+.shangpin #shang:hover .yinshen .zhenmafan{
+	margin-top: 120px;
+}
+.zuihou{
+	height: 100px;
+	background: #f5f5f5;
+}
+.zuihou-1{
+	height: 100px;
+	width: 1200px;
+	margin: 0 auto;
+}
+ .line{
+	height:0px;
+	border:15px solid #323232; 
+}
+.bottom{
+	height:65px ;
+	background: #323232;
+	margin: 0 auto;
+}
+.last{
+	width: 1200px;
+	margin: 0 auto;
+}
+.bottom .last-1{
+	text-align:center;
+	color: #ffffff;
+	height: 35px;
+} 
+.bottom .last-1 a{
+	text-decoration: none;
+	color: #ffffff;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-left: 4px;
+	text-align:center;
+}
+.bottom .last-2 p{
+	color: #ffffff;
+	font-size: 14px;
+	text-align: center;
+} 
+.zuihou .one{
+    width: 298px;
+    height: 100px;
+	float: left;
+    color: black;    
+}
+.zuihou .first{
+	float: left;
+}
+.zuihou .first img{
+	margin-left: 35px;
+	margin-top: 25px;
+}
+.zuihou .second{
+	margin-top: 30px;
+	margin-right: 103px;
+	font-size:19px;
+	float: right;
+}
+.zuihou .third{
+	margin-top: 5px;
+	margin-right: 53px;
+	font-size:13px;
+	float: right;
+}
+.zuihou .xian{
+	height: 50px;
+	width: 0px;
+	margin-top: 25px;
+	border: 0.5px solid #e0e0e0;
+	float: left;
+} 
