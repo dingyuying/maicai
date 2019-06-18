@@ -386,3 +386,23 @@ div{
 	border: 0.5px solid #e0e0e0;
 	float: left;
 } 
+.xuanfu{
+	width:80px;
+	height:590px;
+	top:188px;
+	right:0px;
+	position:fixed;
+	background-color:#181b17;
+}
+.xuanfu li{
+	text-decoration:none;
+	list-style:none;
+	margin-left: 5px;
+	width:70px;
+	height:116px;
+	border-bottom:1px solid #5d5f5d;
+}
+.xuanfu li img{
+	margin-left:18px;
+	margin-top:48px;
+}
