@@ -143,6 +143,12 @@ div{
     width: 80px;
     padding-bottom: 7px;
 }
+.word .big:hover{
+	text-decoration: none;
+    border-bottom:3px solid #3aa747 ;
+    width: 90px;
+    padding-bottom: 7px;
+}
 .aline{
 	width: 1920px;
 	height: 0px;
